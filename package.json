@@ -1,20 +1,17 @@
 {
   "homepage": "https://hammad909.github.io/haseeb-portfolio",
-
-
   "name": "potfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "lint": "eslint .",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "react": "^19.1.0",
@@ -37,5 +34,4 @@
     "tailwindcss": "^4.1.6",
     "vite": "^6.3.5"
   }
-  
 }
